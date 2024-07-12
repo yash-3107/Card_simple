@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/564x/0d/1f/bc/0d1fbccba928105e8f489f929b584165.jpg");
+    background-size: cover;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    height:50%;
+    overflow: hidden;
+    font-family: "Comfortaa";
+    margin: auto;
+    border-radius: 16px;
+    background-image: url("https://i.pinimg.com/564x/42/31/1a/42311af1efae63f785c331af3bacdc3e.jpg");
+    background-size: cover;
+    
+    
+}
+h1{
+    font-family: "Anton SC";
+    letter-spacing: 5px;
+}
+img{
+    height:40%;
+    width:40%;
+    border-radius: 16px;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 10px #ababab;
+    transform: scale(1.05);
+    transition:1s ease-in-out;
+}
+img:hover{
+    box-shadow: 5px 5px 10px #cacaca;
+    transform: scale(1.05);
+    transition:1s ease-in-out;
+
+}
+.player-stats{
+    display: flex;
+    flex-direction: column;
+    font-family: "Gruppo";
+    align-items: center;
+}
+p:hover{
+    transform: scale(1.15);
+    transition:1s ease-in-out;
+    font-weight: 200;
+}
